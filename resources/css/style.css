@@ -45,5 +45,8 @@ a {
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
-  border: 70px 10px 0px 10px;
+}
+
+.mission-text h4 {
+  text-transform: capitalize;
 }
