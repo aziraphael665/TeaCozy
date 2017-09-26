@@ -1,5 +1,3 @@
-/* GLOBAL*/
-
 hmtl, body {
   font-family: Helvetica;
   font-size: 22px;
@@ -15,9 +13,6 @@ body {
   padding: 0;
   margin: 0;
 }
-
-
-/* HEADER */
 
 #header1 {
   display: flex;
@@ -38,9 +33,6 @@ header img {
   height: 50px;
 }
 
-
-/* NAV */
-
 header nav ul li {
   display: inline-flex;
   padding: 10px;
@@ -53,9 +45,6 @@ header nav ul li {
 header nav ul {
   margin-right: 10px;
 }
-
-
-/* HOVER EFFECT NAV */
 
 .hover-nav {
   text-decoration: none;
@@ -97,9 +86,6 @@ header nav ul li a:hover {
   }
 }
 
-
-/* CENTER HEADER */
-
 .center {
   height: 700px;
   display: flex;
@@ -119,9 +105,6 @@ header nav ul li a:hover {
   background: #000;
   align-items: center;
 }
-
-
-/* TEA PICTURES PART */
 
 .tea-month {
   max-width: 1000px;
@@ -159,9 +142,6 @@ header nav ul li a:hover {
   font-weight: 700;
   font-style: italic;
 }
-
-
-/* INFORMATION/LOCATION PART */
 
 .information {
   min-height: 500px;
