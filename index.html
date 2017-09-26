@@ -2,28 +2,118 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <title>TeaCozy</title>
-  <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+  <title>Tea cozy</title>
+  <link rel="stylesheet" type="text/css" href="resources/css/style.css">
 </head>
 
 <body>
-  <header>
-    <div id="logo">
-      <img src="./resources/images/img-tea-cozy-logo.png" / height="50px">
-    </div>
-    <div id="nav-bar">
-      <a href="http://www.google.com" target="_blank" />Mission</a>
-      <a href="http://www.google.com" target="_blank" />Featured Tea</a>
-      <a href="http://www.google.com" target="_blank" />Locations</a>
+  <header class="header">
+    <img src="resources/images/img-tea-cozy-logo.png" class="header__logo">
+
+    <div class="header__navigation">
+      <a href="#mission" class="header__link">Mission</a>
+      <a href="#store" class="header__link">Featured Tea</a>
+      <a href="#locations" class="header__link">Locations</a>
     </div>
   </header>
-  <div class="mission">
-    <div class="mission-text">
-      <h2>Our Mission</h2>
-      <h4>handpicked, artisanally curated, free range, sustainable, small batch, fair trade, organic tea</h2> 
+
+  <div class="project-body">
+    <div class="project-body__mission">
+      <div class="mission-content" id="mission">
+        <div class="mission-content__title">Our Mission</div>
+        <div class="mission-content__statement">Handpicked, Artisinally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea
+        </div>
+      </div>
+    </div>
+
+    <div class="project-body__shop" id="store">
+      <div class="shop-choice">
+        <div class="shop-choice__title">Tea of the Month</div>
+        <div class="shop-choice__statement">What's steeping at The Tea Cozy?
+        </div>
+      </div>
+
+      <div class="shop-offer">
+        <div class="shop-offer__picture">
+          <img src="resources/images/img-berryblitz.jpg">
+          <div class="shop-offer__picture-caption">Fall Berry Blitz Tea</div>
+        </div>
+
+        <div class="shop-offer__picture">
+          <img src="resources/images/img-spiced-rum.jpg">
+          <div class="shop-offer__picture-caption">Spiced Rum Tea</div>
+        </div>
+
+        <div class="shop-offer__picture">
+          <img src="resources/images/img-donut.jpg">
+          <div class="shop-offer__picture-caption">Seasonal Donuts</div>
+        </div>
+
+        <div class="shop-offer__picture">
+          <img src="resources/images/img-myrtle-ave.jpg">
+          <div class="shop-offer__picture-caption">Myrtle Ave Tea</div>
+        </div>
+
+        <div class="shop-offer__picture">
+          <img src="resources/images/img-bedford-bizarre.jpg">
+          <div class="shop-offer__picture-caption">Bedford Bizzare Tea</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-body__geo" id="locations">
+      <div class="geo-locations">
+        <div class="geo-locations__title">
+          Locations
+        </div>
+      </div>
+
+      <div class="geo-locations__locations">
+        <div class="shop-location">
+          <div class="shop-location__title">Downtown</div>
+          <div class="shop-location__address">
+            <br />384 West 4th St>
+            <br />Suite 106>
+            <br />Portland, Maine>
+          </div>
+        </div>
+
+        <div class="shop-location">
+          <div class="shop-location__title">East Bayside</div>
+          <div class="shop-location__address">
+            <br />3433 Phisherman's Avenue
+            <br />(Northwest Corner)
+            <br />Portland, Maine
+          </div>
+        </div>
+
+        <div class="shop-location">
+          <div class="shop-location__title">Oakdale</div>
+          <div class="shop-location__address">
+            <br />515 Crescent Avenue
+            <br />Second Floor
+            <br />Portland, Maine
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+
+  <footer class="footer">
+    <div class="footer__shop-name">
+      The Tea Cozy
+    </div>
+
+    <a href="mailto:contact@theteacozy.com" class="footer__email">contact@theteacozy.com</a>
+
+    <div class="footer__phone">
+      917-555-8904
+    </div>
+
+    <div class="footer__copyright">
+      copyright The Tea Cozy 2017
+    </div>
+  </footer>
 </body>
 
 </html>
